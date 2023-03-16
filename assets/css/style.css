@@ -1,0 +1,106 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  margin: 0 auto;
+}
+
+.head {
+  text-align: center;
+  border-bottom: 0.8px solid;
+  width: 100%;
+  position: sticky;
+  margin-top: 0;
+  background-color: rgb(243, 243, 243);
+}
+
+.navBar {
+  text-align: center;
+  border-top: 0.8px solid;
+}
+.navBar ul li {
+  list-style: none;
+  display: inline-block;
+}
+.navBar ul li a {
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+  text-decoration: none;
+  padding: 0 40px;
+  font-size: 20px;
+  }
+.navBar a:hover {
+  background-color: rgba(66, 66, 207, 0.685);
+  border-radius:10px;
+  color: rgb(255, 255, 255);
+  transition: 0.2s;
+}
+footer {
+  border-top: 0.8px solid;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(243, 243, 243);
+  color: rgb(0, 0, 0);
+  text-align: center;
+  
+}
+.icon {
+  display: flex;
+  justify-content: space-between;
+  max-width: 100px;
+  margin: 0 auto;
+  padding: 10px 0;
+}
+
+section{
+  width: 80%;
+  margin-left: 10%;
+  margin-bottom: 10%;
+}
+section .titre{
+  color: rgb(66, 66, 207);
+  margin-top: 5%;
+}
+
+.content .project{
+  min-height: 20%;
+  max-width: 30%;
+  min-width: 30%;
+  background-color: rgb(243, 243, 243);
+   display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  margin: 15px;
+}
+
+.content{
+  display: flex;
+  flex-flow: row wrap;
+
+}
+.content .project img{
+  height: 200px;
+ width: 100%;
+}
+.content .project .action{
+ 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  height:40px;
+  color: white;
+  background-color: rgba(66, 66, 207, 0.685);
+  border-radius:10px;
+  width: 70%;
+}
+
+.content .project .action a{
+  text-decoration: none;
+}
