@@ -6,47 +6,46 @@ body {
   font-family: "Raleway", sans-serif;
   margin: 0 auto;
 }
-
-.head {
+.head{
   text-align: center;
-  border-bottom: 0.8px solid;
-  width: 100%;
+}
+.navbar {
+  position: -webkit-sticky;
   position: sticky;
-  margin-top: 0;
-  background-color: rgb(243, 243, 243);
+  top: 0;
 }
-
-.navBar {
-  text-align: center;
-  border-top: 0.8px solid;
+.navbar ul{
+  list-style-type: none;
+  background-color: rgb(84, 84, 179); 
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
-.navBar ul li {
-  list-style: none;
-  display: inline-block;
-}
-.navBar ul li a {
+.navbar ul li a{
+  color: white;
+  padding: 13px 60px;
   text-decoration: none;
+  display: block;
+}
+.navbar li  a:hover{
+  border-bottom: 1 black;
+  background-color: white;
   color: black;
-  display: inline-block;
-  text-decoration: none;
-  padding: 0 40px;
-  font-size: 20px;
-  }
-.navBar a:hover {
-  background-color: rgba(66, 66, 207, 0.685);
-  border-radius:10px;
-  color: rgb(255, 255, 255);
-  transition: 0.2s;
-}
+  border-bottom: 3px solid;
+} 
+
+
 footer {
   border-top: 0.8px solid;
-  position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: rgb(243, 243, 243);
-  color: rgb(0, 0, 0);
+  background-color: rgb(84, 84, 179);
+  color: rgb(255, 255, 255);
   text-align: center;
+  position: fixed;
   
 }
 .icon {
