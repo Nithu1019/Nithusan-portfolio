@@ -55,6 +55,10 @@ footer {
   margin: 0 auto;
   padding: 10px 0;
 }
+.icon a .fa {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+}
 
 section{
   width: 80%;
